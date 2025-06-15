@@ -27,7 +27,7 @@ A modern web application built with React, TypeScript, and Vite that provides an
 
 1. Clone the repository:
 ```bash
-git clone [git@github.com:aliajafari/Technance.git](https://github.com/aliajafari/Technance.git)
+git clone https://github.com/aliajafari/Technance.git
 cd global-trade
 ```
 
