@@ -2,6 +2,8 @@
 
 A modern web application built with React, TypeScript, and Vite that provides an interactive and visually appealing interface for global trade visualization and analysis.
 
+🌐 Live Demo: [https://technance.vercel.app/](https://technance.vercel.app/)
+
 ## 🚀 Features
 
 - Interactive 3D globe visualization using Three.js and Cobe
@@ -25,7 +27,7 @@ A modern web application built with React, TypeScript, and Vite that provides an
 
 1. Clone the repository:
 ```bash
-git clone [git@github.com:aliajafari/Technance.git]
+git clone [git@github.com:aliajafari/Technance.git](https://github.com/aliajafari/Technance.git)
 cd global-trade
 ```
 
