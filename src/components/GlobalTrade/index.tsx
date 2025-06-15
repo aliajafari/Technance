@@ -2,8 +2,8 @@ import { useRef } from "react";
 import { motion } from "framer-motion";
 import Testimonials from "../Testimonials";
 import StarfieldSection from "../Starfield";
-import Header from "./Header";
-import AnimatedEarth from "./AnimatedEarth";
+import Header from "../Header/Header";
+import AnimatedEarth from "../AnimatedEarth/AnimatedEarth";
 
 export default function GlobalTrade() {
   const ref = useRef<HTMLDivElement>(null);
