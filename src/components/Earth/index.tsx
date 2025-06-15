@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import createGlobe from "cobe";
 import Counter from "../Counter";
 
@@ -29,7 +29,6 @@ export default function Earth({ className }: { className?: string }) {
       onRender: (state) => {
         state.phi = phi;
         phi += 0.005;
-        console.log(state);
       },
     });
 
