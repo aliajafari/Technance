@@ -1,0 +1,17 @@
+@reference "tailwindcss";
+
+.testimonialCard {
+  @apply flex-none w-[320px] rounded;
+}
+
+.testimonialCardContent {
+  @apply p-2 bg-violet-950;
+}
+
+.testimonialCardContent h2 {
+  @apply text-base font-bold mb-2;
+}
+
+.testimonialCardContent p {
+  @apply text-xs text-gray-300 leading-tight mb-1;
+}

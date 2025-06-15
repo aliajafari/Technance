@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --spacing: 0.5rem;
+  --font-body: Inter, sans-serif;
+  --color-primary: #000000;
+  --color-secondary: #ffffff;
+  --color-velvet: oklch(0.4031 0.1636 284.54);
+  --animate-marquee-to-left: animate-marquee-to-left 30s linear infinite;
+  --animate-marquee-to-right: animate-marquee-to-right 30s linear infinite;
+  @keyframes animate-marquee-to-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes animate-marquee-to-right {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+}
+
+:root {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  background-color: #242424;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  @apply tracking-tight;
+  /* min-height: 100vh; */
+}
+
+.mock {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

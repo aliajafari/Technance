@@ -1,0 +1,8 @@
+@reference "tailwindcss";
+
+.earth {
+  @apply absolute top-0 left-0;
+  width: 600px;
+  height: 600px;
+  aspect-ratio: 1;
+}
